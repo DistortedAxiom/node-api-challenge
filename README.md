@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express is a framework that sits ontop of Node and help us create application and REST api servers. It is able to utilize middleware to excute function in the middle of the request and response. It can also use routing to specify how the client response to certain request and certain URI
+
 - [ ] Describe Middleware?
+
+Middleware is / are functions that get executed in the order that they are introduced into the code, they can perform operations on the request which then can move to the next function or return a response
 
 - [ ] Describe a Resource?
 
+A resource is a the data set that is returned (response) according to the request. In REST architecture, everything is a resource which  can be accessed by a unique URI
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+HTTP Status Codes and the messages that come with them.
+
 - [ ] How can we partition our application into sub-applications?
+
+We can create routers in different folders and files, then we can import them into our server file and utilize them using express
 
 ## Minimum Viable Product
 
